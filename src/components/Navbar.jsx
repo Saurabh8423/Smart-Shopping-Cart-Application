@@ -4,7 +4,7 @@ import {selectTotalItems} from "../redux/cartSlice";
 import {useUser} from "../context/UserContext"
 
 
-export default function Navbar(){
+const  Navbar= () =>{
   const totalItems = useSelector(selectTotalItems)
   const {user}= useUser()
   return(
@@ -19,3 +19,4 @@ export default function Navbar(){
     </header>
   )
 }
+export default Navbar;
