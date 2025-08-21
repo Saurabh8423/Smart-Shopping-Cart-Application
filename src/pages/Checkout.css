@@ -1,0 +1,18 @@
+.checkout {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.08);
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.checkout h2 {
+  color: #16a34a;
+  margin-bottom: 1rem;
+}
+
+.checkout p {
+  margin-bottom: 1.5rem;
+}

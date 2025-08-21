@@ -2,7 +2,8 @@ import { useEffect, useMemo, useState } from "react";
 import SearchBar from "../components/SearchBar";
 import ProductCard from "../components/ProductCard";
 import CartSummary from "../components/CartSummary";
-import { PRODUCTS } from "../data/products";
+import { PRODUCTS } from "../data/Products";
+import '../pages/Home.css'
 
 export default function Home() {
   const [products, setProducts] = useState([]);

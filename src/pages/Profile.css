@@ -1,0 +1,25 @@
+.profile {
+  background: #fff;
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.08);
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.img{
+    background: blue;
+    border: 1px solid red;
+    border-radius: 50%;
+    
+}
+
+.profile h2 {
+  margin-bottom: 1rem;
+  color: #2563eb;
+}
+
+.profile p {
+  margin-bottom: 0.5rem;
+}
