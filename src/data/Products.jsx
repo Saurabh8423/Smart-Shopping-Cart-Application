@@ -22,7 +22,7 @@ export const PRODUCTS = [
     id: 'p3',
     name: '4K Action Camera',
     price: 8999,
-    image: 'https://www.fimi.com/static/images/camera/c1/C1_1-1.jpg',
+    image: 'https://cdn.shopify.com/s/files/1/1398/4647/products/eken-h9-ultra-hd-4k-action-camera-action-camera-eken-811306_550x.jpg?v=1573539837',
     description: 'Compact action cam with 4K60 recording, waterproof case, and image stabilization.'
   },
   {

@@ -45,13 +45,19 @@ export const {
 
 export default slice.reducer;
 
-// Selectors
+// 🔹 Selectors
 export const selectItems = (s) => s.cart.items;
+
+// ✅ Alias so Cart.jsx works with selectCartItems
+export const selectCartItems = selectItems;
+
 export const selectTotalItems = createSelector([selectItems], (items) =>
   items.reduce((sum, i) => sum + i.qty, 0)
 );
+
 export const selectTotalPrice = createSelector([selectItems], (items) =>
   items.reduce((sum, i) => sum + i.qty * i.price, 0)
 );
+
 export const isInCart = (id) => (s) =>
   s.cart.items.some((i) => i.id === id);
